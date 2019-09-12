@@ -7,22 +7,22 @@ import java.util.HashSet;
  * https://open.kattis.com/problems/everywhere
  */
 public class Everywhere {
-	public static void main(String args[]) {
-		Scanner in = new Scanner(System.in);
+  public static void main(String args[]) {
+    Scanner in = new Scanner(System.in);
 
-		// We'll be using nextLine later, so we don't use nextInt.
-		int testCaseCount = Integer.parseInt(in.nextLine());
+    // We'll be using nextLine later, so we don't use nextInt.
+    int testCaseCount = Integer.parseInt(in.nextLine());
 
-		for (int testCase = 0; testCase < testCaseCount; testCase++) {
-			// We want to get rid of duplicates, so a set is perfect!
-			HashSet<String> cities = new HashSet<String>();
+    for (int testCase = 0; testCase < testCaseCount; testCase++) {
+      // We want to get rid of duplicates, so a set is perfect!
+      HashSet<String> cities = new HashSet<String>();
 
       /////////////////////////////
       /////YOUR CODE GOES HERE/////
       /////////////////////////////
 
       // This will output the number of unique cities.
-		  System.out.println(cities.size());
-	  }
+      System.out.println(cities.size());
+    }
   }
 }
