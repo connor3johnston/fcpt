@@ -10,7 +10,7 @@ public class Everywhere {
   public static void main(String args[]) {
     Scanner in = new Scanner(System.in);
 
-    // We'll be using nextLine later, so we don't use nextInt
+    // We'll be using nextLine() later, so we don't use nextInt().
     int testCaseCount = Integer.parseInt(in.nextLine());
 
     for (int testCase = 0; testCase < testCaseCount; testCase++) {

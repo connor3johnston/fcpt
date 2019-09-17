@@ -35,7 +35,7 @@ public class Zoo {
 
       /*
         Use our print function, to make output easier.
-        But go read it and make sure you see what's going on!
+        But read it and make sure you see what's going on!
       */
       print(zoo, listCount);
       listCount++;

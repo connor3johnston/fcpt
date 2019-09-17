@@ -13,7 +13,8 @@ public class WhatDoesTheFoxSay {
     int cases = Integer.parseInt(in.nextLine());
 
     for (int x = 0; x < cases; x++) {
-      ArrayList<String> allSoundsHeard = new ArrayList<String>(Arrays.asList(in.nextLine().split(" ")));
+      String[] line = in.nextLine().split(" ");
+      ArrayList<String> allSoundsHeard = new ArrayList<String>(Arrays.asList(line));
       String nextAnimal = in.nextLine();
 
       while (!nextAnimal.equals("what does the fox say?")) {
