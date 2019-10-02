@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Solution for "Autori"
+ * Problem ID: autori
+ * https://open.kattis.com/problems/autori
+ */
 public class Autori {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
